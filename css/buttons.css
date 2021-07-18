@@ -1,0 +1,28 @@
+a.button {
+text-decoration: none;
+dispaly: inline-block;
+padding: 5px 10px;
+margin: 0 20px;
+transition: .3s ease-in-out;
+font-size: 24px;
+}
+
+.type1 {
+  color: #BA7D67;
+  border: 2px solid transparent;
+  }
+
+.type1:hover {
+    border: 2px solid #BA7D67;
+  }
+
+.type2 {
+  color: #E7E5D0;
+  border: 3px solid #E7E5D0;
+  border-radius: 25px;
+  }
+
+.type2:hover {
+  color: #BDB9AB;
+  background: #E7E5D0;
+}

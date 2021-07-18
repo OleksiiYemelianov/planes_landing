@@ -1,0 +1,56 @@
+body {
+  background-color: #94c1f2;
+  color: white
+}
+h1 {
+  font-size: 55px;
+  color: blue;
+  font-family: Arial; /*Комментарии*/
+  text-align: center;
+}
+.red{
+  color: #ff0d00;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#Block1{
+  width:80%;
+  margin: 0 auto;
+  background-image: url('../images/6-pattern-karbona-dlya-sayta.png');
+  padding: 15px;
+  border: 5px solid rgb(255, 0, 0)  ;
+  border-radius: 30px;
+}
+b u {
+  color:blue;
+}
+menu {   list-style: none;   margin: 0 auto;   }
+.main-menu a {  text-decoration: none; font-family: comic sans ms; transition: .5s linear;   }
+  .main-menu { display: flex; margin: 0 auto 30px; }
+  /*альтернатива: .main-menu { display: block; width: 600px; margin: 0 auto 30px; } - задает блок main-menu с жесткой шириной в 600px*/
+  .two menu { background: #D4E7EE; overflow: hidden; padding: 0;  }
+  .two li {float: left;}
+  .two a { display: block; padding: 1em; border-right: 1px solid #ADC0CE; background: rgba(173, 192, 206, .3);
+    color: #29838C;   }
+  .two a:hover {background: #ADC0CE}
+.main-menu a:hover {
+text-decoration: none;
+color: white;
+}
+img {
+  transform: scale(1);
+  transition: 2s all;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

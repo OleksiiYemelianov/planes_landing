@@ -1,0 +1,72 @@
+body {
+  background-color: #f5f763
+}
+
+.training_block22 {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('../images/12-fon-dlya-sayta.png');
+  padding: 15px;
+  border: 5px dotted #f7be02;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ff0000;
+  font-family: comic sans ms;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #00044d;
+  font-family: helvetica;
+  font-style: bold;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 45px;
+  color: #f59000;
+  font-family: tahoma;
+  font-style: bold oblique;
+  text-align: center;
+}
+
+.trans img {
+  transform: scale(1);
+  transition: 1s all;
+}
+
+.trans img:hover {
+  transform: scale(1.3);
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px ridge #f7be02;
+  border-radius: 30px;
+}
+
+a.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 15px 20px;
+  transition: 0.5s ease-in;
+  font-size: 32px;
+}
+
+.type1 {
+  color: #4a4b4f;
+  border: 3px solid #4a4b4f;
+  border-radius: 25px;
+  }
+
+  .type1:hover {
+    color: #f2f4fc;
+    background: #4a4b4f;
+  }
